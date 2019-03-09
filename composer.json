@@ -1,5 +1,5 @@
 {
-    "name": "codingarts/voyx",
+    "name": "saant/voyx",
     "description": "laravelvoyager.com = current package extends voyager's functionality",
     "type": "package",
     "license": "mit",
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Codingarts\\Voyx\\": "src"
+            "Saant\\Voyx\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Codingarts\\Voyx\\Providers\\VoyxServiceProvider"
+                "Saant\\Voyx\\Providers\\VoyxServiceProvider"
             ]
         }
     }
